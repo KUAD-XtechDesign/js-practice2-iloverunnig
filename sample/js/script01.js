@@ -1,4 +1,7 @@
-$(function(){
+
+
+
+    $(function(){
 
         let txt1 ="おは〜"
         let txt2 ="お元気？？"
@@ -6,11 +9,11 @@ $(function(){
         let num2 =32; 
         
         
-        function seyHello(){
+        function sayHello(){
          $("#content").text("こんちゃ");
        }
 
-       function seySomething(txt){
+       function saySomething(txt){
         $("#content").text(txt);
       }
 
@@ -19,28 +22,26 @@ $(function(){
       }
 
 
-       $("#button01").on("click",function(){ 
-        seyHello
+     $("#button01").on("click",function(){ 
+        sayHello
 
-    })
+     })
 
-    $("#button02").on("click",function(){ 
-       seySomething(txt1)
+     $("#button02").on("click",function(){ 
+       saySomething(txt1)
 
-    })
-    $("#button03").on("click",function(){ 
+     })
+
+     $("#button03").on("click",function(){ 
         samTwo(txt1,txt2)
-    })
-    $("#button04").on("click",function(){ 
+     })
+     $("#button04").on("click",function(){ 
         samTow(num1,num2)
 
-    })
-    $("#button05").on("click",function(){ 
+     })
+     $("#button05").on("click",function(){ 
         samTwo(txt1,txt2)
         samTwo(num1,num2)
+     })
     })
-})
-  
     
-
-
