@@ -1,10 +1,5 @@
 $(function(){
 
-
-
-
-    
-
         let txt1 ="おは〜"
         let txt2 ="お元気？？"
         let num1 =20;
@@ -45,6 +40,6 @@ $(function(){
         samTwo(num1,num2)
     })
     
+    
 
 
-})
