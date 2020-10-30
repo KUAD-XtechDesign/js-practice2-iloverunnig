@@ -9,7 +9,7 @@
         
         
  function sayHello(){
-  $("#content").text("こんちゃ");
+  $("#content").text("こんkonn");
  }
 
  function saySomething(txt){
