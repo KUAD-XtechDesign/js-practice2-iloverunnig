@@ -17,8 +17,8 @@
         $("#content").text(txt);
       }
 
-      function samTwo(arg1,arq2){
-          $("content").tex(arg1 + arg2);
+      function samTwo(arg1,arg2){
+          $("content").text(arg1 + arg2);
       }
 
 
