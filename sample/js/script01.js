@@ -23,12 +23,12 @@
 
 
      $("#button01").on("click",function(){ 
-        sayHello
+        sayHello();
 
      })
 
      $("#button02").on("click",function(){ 
-       saySomething(txt1)
+       saySomething(txt1);
 
      })
 
